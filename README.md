@@ -10,7 +10,7 @@
 
 ```objective-c
  [[AddressBookHelper alloc] checkPermission:^(id response) {
-      AddressBookPermission *permission =  (AddressBookPermission *)response);
+      AddressBookPermission *permission =  (AddressBookPermission *)response;
       //user deny permission to access
       //permission.ReturnType == ADDRESS_NO_AUTORIZED;
       
